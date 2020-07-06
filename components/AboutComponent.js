@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FlatList, Text, ScrollView } from "react-native";
+import { ScrollView, Text, FlatList } from "react-native";
 import { Card, ListItem } from "react-native-elements";
 import { connect } from "react-redux";
 import { baseUrl } from "../shared/baseUrl";
@@ -15,7 +15,7 @@ function Mission() {
     <Card>
       <Text>
         We present a curated database of the best campsites in the vast woods
-        and backcountry of the World Wide Web Wilderness. We increase access to
+        and back country of the World Wide Web Wilderness. We increase access to
         adventure for the public while promoting safe and respectful use of
         resources. The expert wilderness trekkers on our staff personally verify
         each campsite to make sure that they are up to our standards. We also

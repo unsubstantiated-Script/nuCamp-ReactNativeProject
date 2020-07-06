@@ -30,8 +30,8 @@ import {
 const mapDispatchToProps = {
   fetchCampsites,
   fetchComments,
-  fetchPartners,
   fetchPromotions,
+  fetchPartners,
 };
 
 const DirectoryNavigator = createStackNavigator(
